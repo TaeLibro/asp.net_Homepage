@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  description="메인 페이지">
+    <siteMapNode url="UDefault.aspx" title="User"  description="로그인 페이지">
+      <siteMapNode url="ULogin.aspx" title="Login"  description="로그인" />
+      <siteMapNode url="URegister.aspx" title="Register"  description="회원가입" />
+    </siteMapNode>
+    <siteMapNode url="" title="Board"  description="게시판">
+      <siteMapNode url="GList.aspx" title="Free Board"  description="자유게시판" />
+      <siteMapNode url="AList.aspx" title="Album Board"  description="앨범 게시판" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
